@@ -425,3 +425,21 @@ pre {
  padding: 20px 16px;
  background-color: #F5FDB0;
 }
+button {
+  background-color: #001E6C;
+  border: dashed;
+  border-color: linear-gradient(60deg, #C4DFAA, white);
+  color: orange;
+  padding: 19px 32px;
+  text-align: center;
+
+  display: inline-block;
+  font-size: 25px;
+}
+
+.button1{
+  color: white;
+}
+.button2 {
+   text-decoration: none;
+}
