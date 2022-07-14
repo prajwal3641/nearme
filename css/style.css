@@ -55,7 +55,7 @@
 
 .logo4 img {
   border: 0px;
-  width: 120%;
+  width: 60%;
 }
 
 .logo6 img {
@@ -273,16 +273,16 @@ input:checked~.acc-content {
 }
 
 .w3-container {
-  height: 200px;
-  width: 900px;
+  height: 250px;
+  width: 1000px;
   overflow: hidden;
-  background-color: #B7D3DF;
+  background-color: #B7D3;
   margin: auto;
   align-self: auto;
   border: solid;
   border-image-slice: 1;
   border-width: 5px;
-  border-image-source: linear-gradient(60deg,#C4DFAA,white)
+  border-image-source: linear-gradient(60deg,black,white)
 }
 
 .w3-container h2 {
@@ -292,16 +292,16 @@ input:checked~.acc-content {
 }
 
 .w2-container {
-  height: 290px;
+  height: 300px;
   width: 900px;
   overflow: hidden;
-  background-color: #B7D3DF;
+  background-color: #B7D3;
   margin: auto;
   align-self: auto;
   border: solid;
   border-image-slice: 1;
   border-width: 5px;
-  border-image-source: linear-gradient(60deg,#C4DFAA,white)
+  border-image-source: linear-gradient(60deg,black,white)
 
 }
 
@@ -320,6 +320,7 @@ table {
 
 p {
   font-style: oblique;
+  font-size: 23px;
 }
 
 .contact {
