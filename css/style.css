@@ -440,6 +440,9 @@ button {
 .button1{
   color: white;
 }
+.button1:hover{
+  background: #2FA4FF;
+}
 .button2 {
    text-decoration: none;
 }
