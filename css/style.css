@@ -364,7 +364,7 @@ pre {
 }
 .heading2 {
   font-family: cursive;
-  font-size: 39px;
+  font-size: 46px;
   background-color:
 }
 .back {
@@ -406,7 +406,7 @@ pre {
 /* Add some padding inside the card container */
 .w5-container {
  padding: 20px 16px;
- background-color: #F5FDB0;
+ background-color: #ffe4c4;
 }
 
 .card2 {
@@ -426,7 +426,7 @@ pre {
  background-color: #1F4690;
 }
 button {
-  background-color: #001E6C;
+  background-color: #205375;
   border: dashed;
   border-color: linear-gradient(60deg, #C4DFAA, white);
   color: orange;
