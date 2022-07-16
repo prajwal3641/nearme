@@ -276,7 +276,7 @@ input:checked~.acc-content {
   height: 250px;
   width: 1000px;
   overflow: hidden;
-  background-color: #B7D3;
+  background-color: #9BA3EB;
   margin: auto;
   align-self: auto;
   border: solid;
@@ -295,7 +295,7 @@ input:checked~.acc-content {
   height: 300px;
   width: 1000px;
   overflow: hidden;
-  background-color: #B7D3;
+  background-color: #9BA3EB;
   margin: auto;
   align-self: auto;
   border: solid;
