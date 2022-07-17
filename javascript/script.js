@@ -1,17 +1,29 @@
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  const uluru = { lat: -25.344, lng: 131.031 };
-  // The map, centered at Uluru
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: uluru,
-  });
-  // The marker, positioned at Uluru
-  const marker = new google.maps.Marker({
-    position: uluru,
-    map: map,
-  });
+const displayTime = () => {
+    let date = new Date;
+    let hour = date.getHours();
+    let minute = date.getMinutes();
+    let second = date.getSeconds();
+    let amPm = ''
+
+    // am pm
+    hour < 12 ? amPm = 'AM' : amPm = 'PM'
+
+    // 12hr clock
+    if (hour > 12) {
+        hour -= 12
+    }
+
+    // padding
+    let padHour = String(hour).padStart(2, '0');
+    let padMin = String(minute).padStart(2, '0');
+    // let padSec = String(second).padStart(2, '0');
+
+    // display
+    time.textContent = `${padHour}:${padMin}  ${amPm}`;
+
+    // update in near real-time
+    requestAnimationFrame(displayTime);
 }
 
-window.initMap = initMap;
+
+displayTime();
