@@ -17,7 +17,11 @@
   background-color: rgb(248, 118, 26);
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   position: static;
+=======
+   
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
   top: 0;
 }
 
@@ -273,16 +277,24 @@ input:checked~.acc-content {
 }
 
 .w3-container {
-  height: 200px;
-  width: 900px;
+  height: 250px;
+  width: 1000px;
   overflow: hidden;
+<<<<<<< HEAD
   background-color: #DBDFFD;
+=======
+  background-color: #9BA3EB;
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
   margin: auto;
   align-self: auto;
   border: solid;
   border-image-slice: 1;
   border-width: 5px;
+<<<<<<< HEAD
   border-image-source: linear-gradient(60deg, #C4DFAA, white)
+=======
+  border-image-source: linear-gradient(60deg,black,white)
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
 }
 
 .w3-container h2 {
@@ -292,16 +304,25 @@ input:checked~.acc-content {
 }
 
 .w2-container {
-  height: 290px;
-  width: 900px;
+  height: 300px;
+  width: 1000px;
   overflow: hidden;
+<<<<<<< HEAD
   background-color: #DBDFFD;
+=======
+  background-color: #9BA3EB;
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
   margin: auto;
   align-self: auto;
   border: solid;
   border-image-slice: 1;
   border-width: 5px;
+<<<<<<< HEAD
   border-image-source: linear-gradient(60deg, #C4DFAA, white)
+=======
+  border-image-source: linear-gradient(60deg,black,white)
+
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
 }
 
 .w2-container h2 {
@@ -318,6 +339,7 @@ table {
 
 p {
   font-style: oblique;
+  font-size: 23px;
 }
 
 .contact {
@@ -368,7 +390,7 @@ pre {
 
 .heading2 {
   font-family: cursive;
-  font-size: 39px;
+  font-size: 46px;
   background-color:
 }
 
@@ -412,8 +434,13 @@ pre {
 
 /* Add some padding inside the card container */
 .w5-container {
+<<<<<<< HEAD
   padding: 20px 16px;
   background-color: #ffe4c4;
+=======
+ padding: 20px 16px;
+ background-color: #ffe4c4;
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
 }
 
 .card2 {
@@ -429,6 +456,7 @@ pre {
 
 /* Add some padding inside the card container */
 .w6-container {
+<<<<<<< HEAD
   padding: 20px 16px;
   background-color: #205375;
 }
@@ -439,6 +467,13 @@ h1 {
 
 button {
   background-color: #001E6C;
+=======
+ padding: 20px 16px;
+ background-color: #205375;
+}
+button {
+  background-color: #205375;
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
   border: dashed;
   border-color: linear-gradient(60deg, #C4DFAA, white);
   color: orange;
@@ -451,7 +486,10 @@ button {
 
 .button1{
   color: white;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
 }
 .button1:hover{
   background: #2FA4FF;
@@ -460,6 +498,7 @@ button {
    text-decoration: none;
 }
 
+<<<<<<< HEAD
 .wrapper a {
   color: #fff;
 }
@@ -504,6 +543,9 @@ button {
   opacity: 1;
   transform: scale(1.15);
 }
+=======
+/* social media icons */
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
 /* social media icons */
 
 
@@ -561,7 +603,11 @@ button {
  }
  .btn.fb-btn
  {
+<<<<<<< HEAD
    box-shadow: 0 30px 25px -17px rgba(0,111,255,0.53);
+=======
+   box-shadow: 0 20px 20px -17px rgba(0,111,255,0.53);
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
  }
  .btn.fb-btn:hover
  {
@@ -570,7 +616,11 @@ button {
  }
  .btn.ig-btn
  {
+<<<<<<< HEAD
    box-shadow: 0 30px 25px -17px rgba(255,16,39,0.5);
+=======
+   box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
  }
  .btn.ig-btn:hover
  {
@@ -579,7 +629,11 @@ button {
  }
  .btn.twc-btn
  {
+<<<<<<< HEAD
    box-shadow: 0 30px 25px -17px #00acee;
+=======
+   box-shadow: 0 20px 20px -17px #00acee;
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
  }
  .btn.twc-btn:hover
  {
@@ -588,7 +642,11 @@ button {
  }
  .btn.twb-btn
  {
+<<<<<<< HEAD
    box-shadow: 0 30px 25px -17px #112B3C;
+=======
+   box-shadow: 0 20px 20px -17px #112B3C;
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
  }
  .btn.twb-btn:hover
  {
@@ -597,7 +655,11 @@ button {
  }
  .btn.twa-btn
  {
+<<<<<<< HEAD
    box-shadow: 0 30px 25px -17px #F32424 ;
+=======
+   box-shadow: 0 20px 20px -17px #F32424 ;
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
  }
  .btn.twa-btn:hover
  {
@@ -606,6 +668,10 @@ button {
  }
  /* social media icons ends */
 
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
 
 
  body {
@@ -615,6 +681,7 @@ button {
   font-size: 25px;
 }
 
+<<<<<<< HEAD
  .login{
    font-size: 25px;
  }
@@ -886,3 +953,5 @@ button {
   color: #ffeba7;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
  }
+=======
+>>>>>>> 8e030fc8de80496e70044152edca88fe8deffcf2
