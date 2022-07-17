@@ -17,7 +17,7 @@
   background-color: rgb(248, 118, 26);
   display: flex;
   align-items: center;
- 
+
   position: static;
 
 
@@ -289,7 +289,7 @@ input:checked~.acc-content {
   border-image-slice: 1;
   border-width: 5px;
 
-  border-image-source: linear-gradient(60deg,black,white)
+  border-image-source: linear-gradient(60deg,#041562,#F5F0BB)
 
 }
 
@@ -316,7 +316,7 @@ input:checked~.acc-content {
 
 
 
-  border-image-source: linear-gradient(60deg,black,white)
+  border-image-source: linear-gradient(60deg,#041562,#F5F0BB)
 
 
 }
