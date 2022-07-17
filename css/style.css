@@ -17,11 +17,7 @@
   background-color: rgb(248, 118, 26);
   display: flex;
   align-items: center;
-
   position: static;
-
-
-
   top: 0;
 }
 
@@ -81,7 +77,7 @@
 .navbar2 {}
 
 .nav-list2 {
-  background-color: #D3CEDF;
+  background-color: #9CB4CC;
   align-items: center;
   display: flex;
   padding: 20px, 20px;
@@ -123,6 +119,7 @@ h2 {
 
 h1 {
   font-size: 40px;
+  color: black;
 }
 
 .image {
@@ -131,13 +128,13 @@ h1 {
 }
 
 ul {
-  color: purple;
+  color: black;
 }
 
 .navbar5 {}
 
 .nav-list5 {
-  background-color: #CED89E;
+  background-color: #ADCF9F;
   align-items: center;
   display: flex;
 }
@@ -280,17 +277,13 @@ input:checked~.acc-content {
   height: 250px;
   width: 1000px;
   overflow: hidden;
-
   background-color: #DBDFFD;
-
   margin: auto;
   align-self: auto;
   border: solid;
   border-image-slice: 1;
   border-width: 5px;
-
-  border-image-source: linear-gradient(60deg,#041562,#F5F0BB)
-
+  border-image-source: linear-gradient(60deg, #041562, #F5F0BB)
 }
 
 .w3-container h2 {
@@ -303,22 +296,13 @@ input:checked~.acc-content {
   height: 300px;
   width: 1000px;
   overflow: hidden;
-
   background-color: #DBDFFD;
-
-
-
   margin: auto;
   align-self: auto;
   border: solid;
   border-image-slice: 1;
   border-width: 5px;
-
-
-
-  border-image-source: linear-gradient(60deg,#041562,#F5F0BB)
-
-
+  border-image-source: linear-gradient(60deg, #041562, #F5F0BB)
 }
 
 .w2-container h2 {
@@ -359,7 +343,11 @@ pre {
 
 .aboutdeveloper {
   font-size: 21px;
-  color:
+ 
+  border-style: none;
+
+
+
 }
 
 .aboutdeveloper {
@@ -430,13 +418,10 @@ pre {
 
 /* Add some padding inside the card container */
 .w5-container {
-
   padding: 20px 16px;
   background-color: #ffe4c4;
-
- padding: 20px 16px;
- background-color: #ffe4c4;
-
+  padding: 20px 16px;
+  background-color: #ffe4c4;
 }
 
 .card2 {
@@ -452,7 +437,6 @@ pre {
 
 /* Add some padding inside the card container */
 .w6-container {
-
   padding: 20px 16px;
   background-color: #205375;
 }
@@ -463,35 +447,32 @@ h1 {
 
 button {
   background-color: #001E6C;
-
- padding: 20px 16px;
- background-color: #205375;
+  padding: 20px 16px;
+  background-color: #205375;
 }
+
 button {
   background-color: #205375;
-
   border: dashed;
   border-color: linear-gradient(60deg, #C4DFAA, white);
   color: orange;
-  padding: 19px 32px;
+  padding: 10px 25px;
   text-align: center;
-
   display: inline-block;
   font-size: 25px;
 }
 
-.button1{
+.button1 {
   color: white;
-
-
 }
-.button1:hover{
+
+.button1:hover {
   background: #2FA4FF;
 }
-.button2 {
-   text-decoration: none;
-}
 
+.button2 {
+  text-decoration: none;
+}
 
 .wrapper a {
   color: #fff;
@@ -509,7 +490,7 @@ button {
   text-align: center;
   position: relative;
   color: #fff;
-  background-color: rgba(255,255,0.1);
+  background-color: rgba(255, 255, 0.1);
   transition: 300ms;
 }
 
@@ -539,136 +520,117 @@ button {
 }
 
 /* social media icons */
-
 /* social media icons */
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  background-color: #fafafa;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2em;
+  margin-right: 1em;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
+i.fa {
+  font-size: 44px;
+}
+
+#fb {
+  color: #006fff;
+  text-shadow: 0 0 30px #006fff;
+}
+
+#ig {
+  color: #E4405F;
+  text-shadow: 0 0 30px #ff5f40;
+}
+
+#twa {
+  color: #F32424;
+  text-shadow: 0 0 30px #00acff;
+}
+
+#twb {
+  color: #171515;
+  text-shadow: 0 0 30px #00acee;
+}
+
+#twc {
+  color: #00acee;
+  text-shadow: 0 0 30px #00acee;
+}
+}
+
+.btn.fb-btn {
+  box-shadow: 0 30px 25px -17px rgba(0, 111, 255, 0.53);
+  box-shadow: 0 20px 20px -17px rgba(0, 111, 255, 0.53);
+}
+
+.btn.fb-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0 30px 45px -15px rgba(0, 111, 255, 0.65);
+}
+
+.btn.ig-btn {
+  box-shadow: 0 30px 25px -17px rgba(255, 16, 39, 0.5);
+  box-shadow: 0 20px 20px -17px rgba(255, 16, 39, 0.5);
+}
+
+.btn.ig-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0 30px 45px -15px rgba(255, 16, 39, 0.57);
+}
+
+.btn.twc-btn {
+  box-shadow: 0 30px 25px -17px #00acee;
+  box-shadow: 0 20px 20px -17px #00acee;
+}
+
+.btn.twc-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0 30px 45px -15px #00acee;
+}
+
+.btn.twb-btn {
+  box-shadow: 0 30px 25px -17px #112B3C;
+  box-shadow: 0 20px 20px -17px #112B3C;
+}
+
+.btn.twb-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0 30px 45px -15px #73777B;
+}
+
+.btn.twa-btn {
+  box-shadow: 0 30px 25px -17px #F32424;
+  box-shadow: 0 20px 20px -17px #F32424;
+}
+
+.btn.twa-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0 30px 45px -15px #F32424;
+}
+
+body {
+  background-color: #F5F0BB;
 
 
-.container
- {
-   display: block;
-   justify-content: center;
-   align-items: center;
-   height: 100%;
- }
- .btn
- {
-   width: 60px;
-   height: 60px;
-   background-color: #fafafa;
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   margin-left: 2em;
-   margin-right: 1em;
-   cursor: pointer;
-   transition: all 0.3s;
-   border-radius: 10px;
- }
- i.fa
- {
-   font-size: 44px;
- }
- #fb
- {
-   color: #006fff;
-   text-shadow: 0 0 30px #006fff;
- }
- #ig
- {
-   color: #E4405F;
-   text-shadow: 0 0 30px #ff5f40;
- }
- #twa
- {
-   color: #F32424;
-   text-shadow: 0 0 30px #00acff;
- }
- #twb
- {
-   color: #171515;
-   text-shadow: 0 0 30px #00acee;
- }
- #twc
- {
-   color: #00acee;
-   text-shadow: 0 0 30px #00acee;
- }
-
- }
- .btn.fb-btn
- {
-
-   box-shadow: 0 30px 25px -17px rgba(0,111,255,0.53);
-
-   box-shadow: 0 20px 20px -17px rgba(0,111,255,0.53);
-
- }
- .btn.fb-btn:hover
- {
-   transform: scale(1.2);
-   box-shadow: 0 30px 45px -15px rgba(0,111,255,0.65);
- }
- .btn.ig-btn
- {
-
-   box-shadow: 0 30px 25px -17px rgba(255,16,39,0.5);
-
-   box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
-
- }
- .btn.ig-btn:hover
- {
-   transform: scale(1.2);
-   box-shadow: 0 30px 45px -15px rgba(255,16,39,0.57);
- }
- .btn.twc-btn
- {
-
-   box-shadow: 0 30px 25px -17px #00acee;
-
-   box-shadow: 0 20px 20px -17px #00acee;
-
- }
- .btn.twc-btn:hover
- {
-   transform: scale(1.2);
-   box-shadow: 0 30px 45px -15px #00acee;
- }
- .btn.twb-btn
- {
-
-   box-shadow: 0 30px 25px -17px #112B3C;
-
-   box-shadow: 0 20px 20px -17px #112B3C;
-
- }
- .btn.twb-btn:hover
- {
-   transform: scale(1.2);
-   box-shadow: 0 30px 45px -15px #73777B;
- }
- .btn.twa-btn
- {
-
-   box-shadow: 0 30px 25px -17px #F32424 ;
-
-   box-shadow: 0 20px 20px -17px #F32424 ;
-
- }
- .btn.twa-btn:hover
- {
-   transform: scale(1.2);
-   box-shadow: 0 30px 45px -15px  #F32424;
- }
-
-
-
-
-
- body {
-   background-color: #F5F0BB;
- }
-
-.title{
-  font-size: 25px;
+.title {
+  font-size: 20px;
+}
+.button3{
+  height: 29px;
+  width: 29px;
+  background-color: white;
 }
