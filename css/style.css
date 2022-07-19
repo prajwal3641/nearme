@@ -229,7 +229,7 @@ h5 {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  background: #1362DF;
+  background: #383838;
   font-weight: 700;
   cursor: pointer;
 }
@@ -239,7 +239,7 @@ h5 {
 }
 
 .acc-label:hover {
-  background: #47B5FF;
+  background: #C1A3A3;
 }
 
 .acc-label::after {
@@ -343,7 +343,7 @@ pre {
 
 .aboutdeveloper {
   font-size: 21px;
- 
+
   border-style: none;
 
 
